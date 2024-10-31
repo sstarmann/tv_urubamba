@@ -1,0 +1,131 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #2196F3; /* Fondo azul */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+h1, h2 {
+    color: #343a40; /* Color más oscuro para encabezados */
+    text-align: center; /* Centrando el texto de los encabezados */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea, input[type="date"] {
+    width: 100%;
+    padding: 12px; /* Espaciado más grande */
+    margin-bottom: 15px; /* Espaciado entre campos */
+    border: 1px solid #ced4da; /* Borde más claro */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: border-color 0.3s; /* Transición suave en el borde */
+}
+
+input[type="text"]:focus, textarea:focus, input[type="date"]:focus {
+    border-color: #ff9800; /* Color del borde al enfocar */
+    outline: none; /* Eliminar contorno por defecto */
+}
+
+input[type="submit"], button, .button {
+    color: white;
+    padding: 12px 20px; /* Espaciado más grande */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Centrar el botón */
+    width: fit-content; /* Ajustar el ancho al contenido */
+}
+
+/* Colores permanentes para botones */
+.button-agregar {
+    background-color: #4CAF50; /* Verde para agregar */
+}
+
+.button-editar {
+    background-color: #FFC107; /* Amarillo para editar */
+}
+
+.button-eliminar {
+    background-color: #F44336; /* Rojo para eliminar */
+}
+
+/* Efecto hover para botones */
+.button-agregar:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+.button-editar:hover {
+    background-color: #e0a800; /* Amarillo más oscuro al pasar el mouse */
+}
+
+.button-eliminar:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6; /* Borde más claro */
+}
+
+th {
+    background-color: #FF9800; /* Encabezado de tabla naranja */
+    color: white;
+}
+
+tr {
+    background-color: #2196F3; /* Fondo azul permanente para las filas */
+}
+
+tr:hover {
+    background-color: #2196F3; /* Mantiene el fondo azul al pasar el mouse sobre la fila */
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Centrar acciones */
+}
+
+#error {
+    color: red; /* Color rojo para errores */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto de error */
+}
+
+#formularioEdicion {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* Botón Volver */
+.button-volver {
+    background-color: #FFA500; /* Naranja */
+    color: white;
+}
+
+/* Botón Volver al pasar el mouse */
+.button-volver:hover {
+    background-color: #FF8C00; /* Un poco más oscuro al pasar el mouse */
+}
