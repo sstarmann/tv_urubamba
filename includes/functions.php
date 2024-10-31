@@ -44,7 +44,7 @@ function eliminarCliente($id) {
     global $clientesCollection;
     $result = $clientesCollection->deleteOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
     if ($result->getDeletedCount() > 0) {
-        error_log("Cliente eliminado: $id"); // Log en el archivo de errores
+        error_log("Cliente eliminado: $id"); 
     } else {
         error_log("No se pudo eliminar el cliente: $id");
     }
