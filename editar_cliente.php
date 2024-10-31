@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $dni = sanitizeInput($_POST['dni']);
     $direccion = sanitizeInput($_POST['direccion']);
 
-    $result = actualizarCliente($_GET['id'], $nombre, $apellido, $dni, $direccion); // Cambié actualizarTarea por actualizarCliente
+    $result = actualizarCliente($_GET['id'], $nombre, $apellido, $dni, $direccion); 
 
     if ($result > 0) {
         header("Location: index.php?mensaje=Cliente actualizado con éxito");
