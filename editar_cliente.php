@@ -6,7 +6,7 @@ if (!isset($_GET['id'])) {
     exit;
 }
 
-$cliente = obtenerClientePorId($_GET['id']); // Cambié obtenerTareaPorId por obtenerClientePorId
+$cliente = obtenerClientePorId($_GET['id']); 
 
 if (!$cliente) {
     header("Location: index.php?mensaje=Cliente no encontrado");
