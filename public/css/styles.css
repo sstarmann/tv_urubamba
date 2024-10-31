@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    background-color: #ffffff; 
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
@@ -49,7 +49,7 @@ input[type="submit"], button, .button {
     width: fit-content; 
 }
 
-/* Colores permanentes para botones */
+
 .button-agregar {
     background-color: #4CAF50; 
 }
@@ -62,7 +62,7 @@ input[type="submit"], button, .button {
     background-color: #F44336; 
 }
 
-/* Efecto hover para botones */
+
 .button-agregar:hover {
     background-color: #45a049;
 }
@@ -107,7 +107,7 @@ tr:hover {
 }
 
 #error {
-    color: red; /* Color rojo para errores */
+    color: red; 
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center; 
@@ -127,5 +127,5 @@ tr:hover {
 
 
 .button-volver:hover {
-    background-color: #FF8C00; /* Un poco más oscuro al pasar el mouse */
+    background-color: #FF8C00; 
 }
