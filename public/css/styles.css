@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #2196F3; /* Fondo azul */
+    background-color: #2196F3;
 }
 
 .container {
@@ -12,12 +12,12 @@ body {
     background-color: #ffffff; /* Fondo blanco para el contenedor */
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
 }
 
 h1, h2 {
-    color: #343a40; /* Color más oscuro para encabezados */
-    text-align: center; /* Centrando el texto de los encabezados */
+    color: #343a40; 
+    text-align: center; 
 }
 
 form {
@@ -26,53 +26,53 @@ form {
 
 input[type="text"], textarea, input[type="date"] {
     width: 100%;
-    padding: 12px; /* Espaciado más grande */
-    margin-bottom: 15px; /* Espaciado entre campos */
-    border: 1px solid #ced4da; /* Borde más claro */
-    border-radius: 5px; /* Esquinas redondeadas */
-    transition: border-color 0.3s; /* Transición suave en el borde */
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
 }
 
 input[type="text"]:focus, textarea:focus, input[type="date"]:focus {
-    border-color: #ff9800; /* Color del borde al enfocar */
-    outline: none; /* Eliminar contorno por defecto */
+    border-color: #ff9800; 
+    outline: none; 
 }
 
 input[type="submit"], button, .button {
     color: white;
-    padding: 12px 20px; /* Espaciado más grande */
+    padding: 12px 20px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block; /* Para centrar el botón */
-    margin: 0 auto; /* Centrar el botón */
-    width: fit-content; /* Ajustar el ancho al contenido */
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content; 
 }
 
 /* Colores permanentes para botones */
 .button-agregar {
-    background-color: #4CAF50; /* Verde para agregar */
+    background-color: #4CAF50; 
 }
 
 .button-editar {
-    background-color: #FFC107; /* Amarillo para editar */
+    background-color: #FFC107;
 }
 
 .button-eliminar {
-    background-color: #F44336; /* Rojo para eliminar */
+    background-color: #F44336; 
 }
 
 /* Efecto hover para botones */
 .button-agregar:hover {
-    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+    background-color: #45a049;
 }
 
 .button-editar:hover {
-    background-color: #e0a800; /* Amarillo más oscuro al pasar el mouse */
+    background-color: #e0a800; 
 }
 
 .button-eliminar:hover {
-    background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+    background-color: #c0392b; 
 }
 
 table {
@@ -84,33 +84,33 @@ table {
 th, td {
     text-align: left;
     padding: 12px;
-    border-bottom: 1px solid #dee2e6; /* Borde más claro */
+    border-bottom: 1px solid #dee2e6;
 }
 
 th {
-    background-color: #FF9800; /* Encabezado de tabla naranja */
+    background-color: #FF9800; 
     color: white;
 }
 
 tr {
-    background-color: #2196F3; /* Fondo azul permanente para las filas */
+    background-color: #2196F3; 
 }
 
 tr:hover {
-    background-color: #2196F3; /* Mantiene el fondo azul al pasar el mouse sobre la fila */
+    background-color: #2196F3; 
 }
 
 .actions {
     display: flex;
     gap: 10px;
-    justify-content: center; /* Centrar acciones */
+    justify-content: center; 
 }
 
 #error {
     color: red; /* Color rojo para errores */
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: center; /* Centrar el texto de error */
+    text-align: center; 
 }
 
 #formularioEdicion {
@@ -121,11 +121,11 @@ tr:hover {
 }
 /* Botón Volver */
 .button-volver {
-    background-color: #FFA500; /* Naranja */
+    background-color: #FFA500; 
     color: white;
 }
 
-/* Botón Volver al pasar el mouse */
+
 .button-volver:hover {
     background-color: #FF8C00; /* Un poco más oscuro al pasar el mouse */
 }
